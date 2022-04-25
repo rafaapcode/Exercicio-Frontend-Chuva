@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 #header {
-    width: 1146px;
+    width: 83.55%;
     height: 68px;
     background-color: #FDF1EB;
     float: right;
@@ -43,7 +44,7 @@ button {
     background-color: transparent;
 }
 
-.language{
+.language {
     position: absolute;
     left: 9px;
     top: 8px;
@@ -56,13 +57,13 @@ button span {
     top: 8px;
 }
 
-.arrowDown{
+.arrowDown {
     position: absolute;
     left: 78px;
     top: 9px;
 }
 
-.welcome{
+.welcome {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     position: absolute;
@@ -70,7 +71,7 @@ button span {
     top: 17px;
 }
 
-.email{
+.email {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
     position: absolute;
@@ -78,7 +79,7 @@ button span {
     top: 36px;
 }
 
-.imgFotoLogin{
+.imgFotoLogin {
     float: right;
     position: absolute;
     top: 19px;
@@ -86,7 +87,7 @@ button span {
     border-radius: 50%;
 }
 
-.notification{
+.notification {
     height: 15px;
     width: 15px;
     border-radius: 10px;
@@ -105,3 +106,54 @@ button span {
 
 /* ----------------------------------------------------- */
 
+/* Aside */
+
+
+#menu {
+    height: 2510px;
+    width: 220px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    height: 68px;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    text-align: center;
+    line-height: 68px;
+}
+
+.title h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#menu ul {
+    width: 100%;
+    margin-top: 17px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+#menu ul li {
+    height: 33px;
+    border-bottom: 2px solid #e5e5e5;
+    line-height: 33px;
+    text-indent: 24px;
+}
+
+.select{
+    background-color: #FDF1EB;
+}
+
+.select div{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+    
+}
