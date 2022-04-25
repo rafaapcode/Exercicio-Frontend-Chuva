@@ -310,4 +310,239 @@ main {
     display: flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
+}
+
+
+main h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 263px;
+    right: 317px;
+    top: 88px;
+    color: #ED7839;
+    font-weight: 900;
+}
+
+.videoOverlay {
+    position: absolute;
+    left: 265px;
+    right: 318px;
+    top: 161px;
+    width: 783px;
+    height: 439px;
+    border-radius: 3px;
+    background: rgba(141, 53, 6, 0.5);
+}
+
+.videoOverlay h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    margin-top: 35px;
+    margin-right: 17px;
+    margin-left: 32px;
+    width: 734px;
+    height: 54px;
+    color: white;
+}
+
+.personPhoto {
+    position: absolute;
+    top: 462px;
+    right: 986px;
+    left: 296px;
+    width: 84px;
+    height: 86px;
+    background-image: url(/assets/Foto\ Pessoa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ED7839;
+    border-radius: 50%;
+}
+
+.nomePessoa {
+    position: absolute;
+    top: 472px;
+    left: 397px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+.descPhoto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 513px;
+    left: 399px;
+    color: white;
+    font-weight: 900;
+}
+
+
+/* Section resumo */
+.resumo {
+    position: absolute;
+    top: 630px;
+    left: 263px;
+    width: 1040px;
+    height: 189px;
+    border-radius: 3px;
+    border: 1px solid #ECECEC;
+    text-align: justify;
+}
+
+.resumoTitle {
+    width: 100%;
+    height: 45px;
+    background-color: #FDF1EB;
+    line-height: 45px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.resumoTitle p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.textDescresumo {
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 23px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: #5C5C5C;
+    font-size: 14px;
+}
+
+.resumo a {
+    text-decoration: none;
+    color: #ED7839;
+    font-weight: 900;
+}
+
+.resumo:hover {
+    cursor: pointer;
+}
+
+
+
+/* Discussions */
+.discussion {
+    position: absolute;
+    top: 849px;
+    left: 263px;
+    width: 1040px;
+    height: 621px;
+    border-radius: 3px;
+    border: 1px solid #ECECEC;
+}
+
+.discussTitle {
+    width: 100%;
+    height: 45px;
+    background-color: #FDF1EB;
+    line-height: 45px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.discussTitle p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.contentDiscussion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textDiscussion {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ED7839;
+}
+
+.textDiscussion2 {
+    margin-top: 148px;
+    margin-left: 216.5px;
+    margin-right: 215.5px;
+    line-height: 19.5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #595959;
+}
+
+.dividerDiscussion {
+    position: absolute;
+    top: 265px;
+    width: 1027px;
+    height: 1px;
+    background-color: #E7E7E7;
+    overflow: hidden;
+}
+
+.contentDiscussion img {
+    position: absolute;
+}
+
+.imgSustentabilidade {
+    top: 90px;
+    left: 402.5px;
+    right: 605.24px;
+}
+
+.imgPerguntas {
+    top: 90px;
+    left: 504.5px;
+}
+
+.imgideias {
+    top: 90px;
+    left: 608.5px;
+}
+
+.contentDiscussion button {
+    position: absolute;
+    top: 246px;
+    left: 463px;
+    right: 462px;
+    width: 133px;
+    height: 32px;
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.contentDiscussion button p {
+    position: absolute;
+    font-size: 25px;
+    left: 15px;
+    bottom: 1px;
+}
+
+.contentDiscussion button span{
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.contentDiscussion button:hover{
+    cursor: pointer;
 }
