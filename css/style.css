@@ -106,7 +106,7 @@ button span {
 
 /* ----------------------------------------------------- */
 
-/* Aside */
+/* Aside Menu */
 
 
 #menu {
@@ -146,14 +146,153 @@ button span {
     text-indent: 24px;
 }
 
-.select{
+.select {
     background-color: #FDF1EB;
 }
 
-.select div{
+.select div {
     position: absolute;
     height: 100%;
     width: 5px;
     background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
-    
+
+}
+
+/* Aside Detalhes */
+
+#details {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.doiLogo {
+    width: 43px;
+    height: 31px;
+    background-color: #ED7839;
+    position: absolute;
+    right: 45px;
+    top: 88px;
+    border-radius: 4px;
+}
+
+.doiLogo img {
+    width: 19px;
+}
+
+.star {
+    width: 43px;
+    height: 31px;
+    background-color: #ED7839;
+    position: absolute;
+    right: 93px;
+    top: 88px;
+    border-radius: 4px;
+    background-image: url(/assets/Strela\ Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 19px;
+    color: white;
+}
+
+.download {
+    font-family: 'Roboto', sans-serif;
+    text-indent: 12px;
+    font-size: 16px;
+    color: white;
+    width: 120px;
+    height: 31px;
+    background-color: #ED7839;
+    position: absolute;
+    right: 141px;
+    top: 88px;
+    border-radius: 4px;
+}
+
+.download img {
+    width: 15px;
+    position: absolute;
+    left: 10px;
+}
+
+.paragrafo {
+    margin-top: 131px;
+    margin-right: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #ED7839;
+    font-weight: 500;
+}
+
+#detailsBox {
+    width: 242px;
+    height: 439px;
+    position: absolute;
+    top: 161px;
+    right: 45px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #ECECEC;
+}
+
+.details-Title {
+    width: 100%;
+    height: 45px;
+    background-color: #FDF1EB;
+    border-bottom: 1px solid #ECECEC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 45px;
+    text-indent: 15px;
+    font-weight: 500;
+    color: #4E4E4E;
+    letter-spacing: 1px;
+}
+
+.bar {
+    float: right;
+    height: 367px;
+    width: 3px;
+    background: #E7E7E7;
+    margin-top: 10px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.bar2 {
+    height: 200px;
+    width: 100%;
+    background: #BFBFBF;
+    border-radius: 5px;
+}
+
+.infos {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    width: 212px;
+    height: 364px;
+    top: 60px;
+    left: 15px;
+}
+
+.infos p {
+    margin-bottom: 5px;
+    color: #5C5C5C;
+}
+
+.infos .authors{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #5C5C5C;
+}
+
+.infos .authors li{
+    line-height: 20px;
+}
+
+.universityNames{
+    list-style: none;
+    color: #949090;
 }
