@@ -31,9 +31,9 @@
 
 
 button {
-    margin-left: 789px;
     position: absolute;
     top: 17px;
+    right: 290px;
     box-sizing: border-box;
     border: 1px solid #CCCCCC;
     width: 97px;
@@ -62,8 +62,46 @@ button span {
     top: 9px;
 }
 
+.welcome{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    right: 75px;
+    top: 17px;
+}
+
 .email{
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
-    margin-left: 908px;
+    position: absolute;
+    right: 75px;
+    top: 36px;
 }
+
+.imgFotoLogin{
+    float: right;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+.notification{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    background-color: #F85959;
+    color: white;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 17px;
+    font-weight: 700;
+
+}
+
+/* ----------------------------------------------------- */
+
