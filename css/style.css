@@ -438,7 +438,7 @@ main h2 {
     top: 849px;
     left: 263px;
     width: 1040px;
-    height: 621px;
+    height: 680px;
     border-radius: 3px;
     border: 1px solid #ECECEC;
 }
@@ -545,4 +545,167 @@ main h2 {
 
 .contentDiscussion button:hover{
     cursor: pointer;
+}
+
+
+
+
+/* Questions */
+.questions{
+    width: 1000px;
+    height: 148px;
+    position: absolute;
+    top: 49%;
+    left: 0.5%;
+    right: 1.45%;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+}
+
+.questions h4{
+    margin-top: 17px;
+    margin-left: 24.17px;
+    color: #ED7839;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.questions, .carlosQuestion{
+    margin-left: 24.17px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.questions, .perguntaCarlos{
+    margin-left: 24.17px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.questions, .likeAnswer{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-weight: 350;
+    margin-top: 11px;
+    margin-left: 85px;
+}
+
+.questions, .likeAnswer span{
+    margin-left: 15px;
+}
+
+.like{
+    position: absolute;
+    width: 27px;
+    height: 19px;
+    background-color: #ED7839;
+    border-radius: 2px;
+    bottom: 18px;
+    margin-left: 43px;
+    background-image: url(/assets/CoracaoIcone.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menuIcon img{
+    position: absolute;
+    width: 17px;
+    margin-left: 20px;
+    bottom: 1px;
+   
+}
+
+
+.question2{
+    width: 1000px;
+    height: 148px;
+    position: absolute;
+    top: 74%;
+    left: 0.5%;
+    right: 1.45%;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+}
+
+.question2 h4{
+    margin-top: 17px;
+    margin-left: 24.17px;
+    color: #ED7839;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.question2, .carlosQuestion2{
+    margin-left: 24.17px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.question2, .perguntaCarlos2{
+    margin-left: 24.17px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.question2, .likeAnswer2{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-weight: 350;
+    margin-top: 11px;
+    margin-left: 85px;
+}
+
+.question2, .likeAnswer2 span{
+    margin-left: 15px;
+}
+
+.like2{
+    position: absolute;
+    width: 27px;
+    height: 19px;
+    background-color: #ED7839;
+    border-radius: 2px;
+    bottom: 18px;
+    margin-left: 43px;
+    background-image: url(/assets/CoracaoIcone.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menuIcon2 img{
+    position: absolute;
+    width: 17px;
+    margin-left: 20px;
+    bottom: 1px;
+   
+}
+
+footer{
+    position: absolute;
+    top: 1580px;
+    left: 234px;
+    display: flex;
+    /* width: 100%; */
+    height: 100%;
+    flex-direction: row;
+}
+
+.rodape{
+    border-top: 1px solid #E7E7E7;
+    width: 1070px;
+    height: 181px;
+    background-image: url(/assets/ImgFooter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
