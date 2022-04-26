@@ -415,7 +415,7 @@ main h2 {
     margin-left: 15px;
 }
 
-.textDescresumo {
+.textDescresumo, .textDescresumo2, .textDescresum3, .textDescresumo4  {
     margin-left: 15px;
     margin-right: 15px;
     line-height: 23px;
@@ -424,6 +424,11 @@ main h2 {
     color: #5C5C5C;
     font-size: 14px;
 }
+
+.textDescresumo, .textDescresumo2, .textDescresum3{
+    margin-bottom: 20px;
+}
+     
 
 .resumo a {
     text-decoration: none;
