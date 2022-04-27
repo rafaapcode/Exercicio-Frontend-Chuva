@@ -531,7 +531,7 @@ main h2 {
     position: absolute;
     top: 147px;
     left: 17.53px;
-display: flex;
+    display: flex;
     align-items: flex-end;
 }
 
@@ -582,7 +582,6 @@ display: flex;
     font-size: 15px;
     color: white;
 }
-
 
 
 .textDiscussion2 {
