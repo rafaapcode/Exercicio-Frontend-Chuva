@@ -39,7 +39,7 @@ button:hover{
 button {
     position: absolute;
     top: 17px;
-    right: 270px;
+    right: 285px;
     box-sizing: border-box;
     border: 1px solid #CCCCCC;
     width: 90px;
@@ -843,7 +843,7 @@ main h2 {
 .TextAutor {
     position: absolute;
     left: 903px;
-    top: 185px;
+    top: 170px;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -896,7 +896,7 @@ main h2 {
 .TextCoAutor {
     position: absolute;
     left: 903px;
-    top: 470px;
+    top: 485px;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -975,7 +975,7 @@ main h2 {
 .imgCamila{
     position: absolute;
     left: 960px;
-    top:465px;
+    top:483px;
 }
 
 
