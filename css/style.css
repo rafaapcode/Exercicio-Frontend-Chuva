@@ -1090,3 +1090,48 @@ footer{
     background-position: center;
     background-size: contain;
 }
+
+
+
+@media screen and (max-width: 896px) {
+
+    #menu {
+        width: 100px;
+        position: fixed;
+        display: none;
+    }
+    #menu ul{
+        font-size: 10px;
+    }
+
+    #menu img{
+        width: 100%;
+    }
+
+    #detailsBox{
+        width: 170px;
+        height: 450px;
+        right: 10px;
+    }
+
+    .infos{
+        width: 150px;
+    }
+
+    .details-Title{
+        font-size: 10px;
+    }
+    main h2{
+        left: 5px;
+        font-size: 12px;
+        right: 5px;
+        top: 100px;
+    }
+    .videoOverlay{
+        width: 220px;
+        left: 5px;
+    }
+
+   
+
+}
