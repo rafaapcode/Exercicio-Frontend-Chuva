@@ -43,8 +43,28 @@ $(".resumo").click(() => {
     $(".discussion").css("top", '1170px');
     $("footer").css("top", "1900px");
 
-
 })
+
+$(".resumo").mouseout(() => {
+    $(".resumo").html(`  <div class="resumoTitle">
+    <p>Resumo</p>
+</div>
+
+<p class="textDescresumo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis
+    auctor, mollis felis ut,
+    commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros
+    sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec
+    finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum
+    lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida
+    eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+    Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum
+    nisl, vel aliquet enim accumsan sit ametl accumsant... <a href="">ver mais</a></p>`);
+
+    $(".resumo").css("height", "189px");
+    $(".discussion").css("top", '849px');
+    $("footer").css("top", "1600px");
+})
+
 
 $(".contentDiscussion button").click(() => {
     $(".contentDiscussion").html(`<p class="textDiscussion">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
