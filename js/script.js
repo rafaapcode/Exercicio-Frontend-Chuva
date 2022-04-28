@@ -187,7 +187,7 @@ $(".contentDiscussion button").click(() => {
             $(".questions").css("top", "48%")
             $(".question2").css("top", "73%")
 
-
+            $("footer").css("top", "1600px");
 
 
         })

@@ -617,18 +617,18 @@ main h2 {
 }
 
 .imgSustentabilidade {
-    top: 90px;
+    top: 130px;
     left: 402.5px;
     right: 605.24px;
 }
 
 .imgPerguntas {
-    top: 90px;
+    top: 130px;
     left: 504.5px;
 }
 
 .imgideias {
-    top: 90px;
+    top: 130px;
     left: 608.5px;
 }
 
@@ -1093,45 +1093,607 @@ footer{
 
 
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 900px) {
 
     #menu {
-        width: 100px;
+        width: 100%;
         position: fixed;
         display: none;
     }
-    #menu ul{
+
+    #menu ul {
         font-size: 10px;
     }
 
-    #menu img{
+    #menu img {
         width: 100%;
     }
 
-    #detailsBox{
+    #detailsBox {
         width: 170px;
-        height: 450px;
+        height: 445px;
         right: 10px;
     }
 
-    .infos{
+    .infos {
         width: 150px;
     }
 
-    .details-Title{
+    .details-Title {
         font-size: 10px;
     }
-    main h2{
+
+    main h2 {
         left: 5px;
         font-size: 12px;
         right: 5px;
-        top: 100px;
+        top: 70px;
     }
-    .videoOverlay{
+
+    .videoOverlay {
         width: 220px;
         left: 5px;
     }
 
-   
+    .videoOverlay h3 {
+        font-size: 10px;
+        width: 215px;
+        margin-left: 10px;
+    }
 
+    .personPhoto {
+        left: 15px;
+        width: 42px;
+        height: 43px;
+        top: 500px;
+
+    }
+
+    .nomePessoa {
+        left: 65px;
+        top: 515px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .descPhoto {
+        left: 65px;
+        top: 530px;
+        font-size: 7px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .doiLogo {
+        right: 20px;
+        top: 105px;
+        width: 40px;
+        height: 25px;
+    }
+
+    .doiLogo img {
+        width: 15px;
+    }
+
+    .star {
+        right: 70px;
+        top: 105px;
+        height: 25px;
+    }
+
+    .download {
+        right: 120px;
+        top: 105px;
+        height: 25px;
+    }
+
+    .paragrafo {
+        margin-right: 20px;
+        margin-top: 135px;
+    }
+
+    #header {
+        width: 100%;
+        padding-top: 10px;
+        height: 55px;
+    }
+
+    #header p {
+        font-size: 6px;
+        margin-left: 10px;
+        line-height: 10px;
+    }
+
+    #header p:nth-child(2) {
+        font-size: 7px;
+        font-weight: 900;
+    }
+
+    #header p:nth-child(3) {
+        font-size: 6px;
+    }
+
+    button {
+        right: 140px;
+        width: 40px;
+        height: 20px;
+        top: 30px;
+    }
+
+    .language {
+        position: absolute;
+        width: 6px;
+        left: 3px;
+        top: 5px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    button span {
+        position: absolute;
+        font-size: 7px;
+        left: 10px;
+        top: 5px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 4px;
+        left: 33px;
+        top: 5px;
+    }
+
+    .welcome {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+        position: absolute;
+        right: 60px;
+        top: 20px;
+    }
+
+    .email {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 14px;
+        position: absolute;
+        right: 50px;
+        top: 35px;
+    }
+
+    .imgFotoLogin {
+        float: right;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border-radius: 50%;
+        width: 30px;
+    }
+
+    .notification {
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        font-size: 7px;
+        font-family: 'Roboto', sans-serif;
+        float: right;
+        background-color: #F85959;
+        color: white;
+        position: absolute;
+        right: 20px;
+        text-align: center;
+        top: 17px;
+        font-weight: 700;
+
+    }
+
+    .resumo {
+        position: absolute;
+        top: 630px;
+        left: 10px;
+        width: 97%;
+        height: 189px;
+        border-radius: 3px;
+        border: 1px solid #ECECEC;
+        text-align: justify;
+    }
+
+    .resumoTitle p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+
+    .textDescresumo,
+    .textDescresumo2,
+    .textDescresum3,
+    .textDescresumo4 {
+        margin-left: 15px;
+        margin-right: 15px;
+        line-height: 10px;
+        margin-top: 10px;
+        font-family: 'Quicksand', sans-serif;
+        color: #5C5C5C;
+        font-size: 10px;
+    }
+
+    .discussion {
+        position: absolute;
+        top: 849px;
+        left: 10px;
+        width: 97%;
+        height: 680px;
+        border-radius: 3px;
+        border: 1px solid #ECECEC;
+    }
+
+
+    .textDiscussion2 {
+        margin-top: 148px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 12px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #595959;
+    }
+
+    .imgSustentabilidade {
+        top: 100px;
+        left: 50px;
+        right: 605.24px;
+    }
+
+    .imgPerguntas {
+        top: 100px;
+        left: 165px;
+    }
+
+    .imgideias {
+        top: 100px;
+        left: 265px;
+    }
+
+    .dividerDiscussion {
+        position: absolute;
+        top: 265px;
+        width: 100%;
+        height: 1px;
+        background-color: #E7E7E7;
+    }
+
+    .contentDiscussion button {
+        position: absolute;
+        top: 255px;
+        left: 130px;
+        right: 462px;
+        width: 120px;
+        height: 20px;
+        border-radius: 4px;
+        font-family: 'Quicksand', sans-serif;
+        background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+        border: none;
+        color: white;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .contentDiscussion button p {
+        line-height: 20px;
+        font-size: 23px;
+        left: 20px;
+    }
+
+    .contentDiscussion button span {
+        position: absolute;
+        top: 4px;
+        right: 0;
+        font-size: 10px;
+    }
+
+    .questions {
+        width: 90%;
+        height: 148px;
+        position: absolute;
+        top: 49%;
+        left: 0.5%;
+        right: 1.45%;
+        border-radius: 4px;
+        border: 1px solid #E7E7E7;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    }
+
+    .questions h4 {
+        margin-top: 17px;
+        margin-left: 24.17px;
+        color: #ED7839;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .questions,
+    .carlosQuestion {
+        margin-left: 24.17px;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .questions,
+    .perguntaCarlos {
+        margin-left: 24.17px;
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .questions,
+    .likeAnswer {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 12px;
+        font-weight: 350;
+        margin-top: 11px;
+        margin-left: 85px;
+    }
+
+    .questions,
+    .likeAnswer span {
+        margin-left: 15px;
+    }
+
+    .like {
+        position: absolute;
+        width: 25px;
+        height: 15px;
+        background-color: #ED7839;
+        border-radius: 2px;
+        bottom: 24px;
+        margin-left: 43px;
+        background-image: url(/assets/CoracaoIcone.png);
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .menuIcon img {
+        width: 15px;
+        margin-left: 20px;
+    }
+
+    .questions h4 {
+        margin-top: 17px;
+        margin-left: 24.17px;
+        color: #ED7839;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .questions,
+    .carlosQuestion {
+        margin-left: 24.17px;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .questions,
+    .perguntaCarlos {
+        margin-left: 24.17px;
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .questions,
+    .likeAnswer {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 12px;
+        font-weight: 350;
+        margin-top: 11px;
+        margin-left: 85px;
+    }
+
+    .questions,
+    .likeAnswer span {
+        margin-left: 15px;
+    }
+
+    .like {
+        position: absolute;
+        width: 25px;
+        height: 15px;
+        background-color: #ED7839;
+        border-radius: 2px;
+        bottom: 24px;
+        margin-left: 43px;
+        background-image: url(/assets/CoracaoIcone.png);
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .menuIcon img {
+        width: 15px;
+        margin-left: 20px;
+    }
+
+    .question2 {
+        width: 90%;
+        height: 148px;
+        position: absolute;
+        top: 74%;
+        left: 0.5%;
+        right: 1.45%;
+        border-radius: 4px;
+        border: 1px solid #E7E7E7;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    }
+
+    .question2 h4 {
+        margin-top: 17px;
+        margin-left: 24.17px;
+        color: #ED7839;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .question2,
+    .carlosQuestion2 {
+        margin-left: 24.17px;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .question2,
+    .perguntaCarlos2 {
+        margin-left: 24.17px;
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .question2,
+    .likeAnswer2 {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 12px;
+        font-weight: 350;
+        margin-top: 11px;
+        margin-left: 85px;
+    }
+
+    .question2,
+    .likeAnswer2 span {
+        margin-left: 15px;
+    }
+
+    .like2 {
+        position: absolute;
+        width: 25px;
+        height: 15px;
+        background-color: #ED7839;
+        border-radius: 2px;
+        bottom: 24px;
+        margin-left: 43px;
+        background-image: url(/assets/CoracaoIcone.png);
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .menuIcon2 img {
+        position: absolute;
+        width: 15px;
+        margin-left: 20px;
+        bottom: 1px;
+
+    }
+
+    footer {
+        position: absolute;
+        top: 1580px;
+        left: 0;
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+    }
+
+    .rodape {
+        border-top: 1px solid #E7E7E7;
+        height: 100px;
+        background-image: url(/assets/ImgFooter.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 420px;
+    }
+
+    .assuntoInput {
+        width: 90%;
+
+    }
+
+
+    .assuntoInput p {
+        font-size: 10px;
+    }
+
+    .conteudoInput {
+        width: 90%;
+    }
+
+    .enviar {
+        width: 100%;
+        height: 31px;
+        background: #EAF1F2;
+        border-top: 1px solid #CCCCCC;
+    }
+
+
+    .enviar p {
+        font-family: 'sans-serif';
+        position: absolute;
+        top: 5px;
+        color: black;
+        font-size: 20px;
+        font-weight: 900;
+        font-style: italic;
+
+    }
+
+    .enviar .b {
+        left: 29.3px;
+    }
+
+    .enviar .i {
+        left: 72.48px;
+    }
+
+    .enviar .btnEnviar {
+        position: absolute;
+        left: 263px;
+        height: 100%;
+        width: 100px;
+    }
+
+    .enviar .btnEnviar p {
+        position: absolute;
+        top: 5px;
+        left: 35px;
+
+        font-size: 12px;
+    }
+
+    .TextAutor {
+        position: absolute;
+        left: 255px;
+        top: 165px;
+    }
+
+    .answerAdriano,
+    .answerCarlos,
+    .answerCarlos2,
+    .answerCamila,
+    .answerCamila2,
+    .answerAna {
+        font-size: 12px;
+    }
+
+    .CarlosName {
+        margin-top: 40px;
+    }
+
+    .CamilaNome {
+        margin-top: 40px;
+    }
+
+    .answerCamila,
+    .answerCamila2 {
+        font-size: 10px;
+    }
+
+    .answerAna{
+        font-size: 10px;
+    }
 }
