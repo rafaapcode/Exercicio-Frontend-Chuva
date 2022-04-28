@@ -78,6 +78,102 @@ $(".contentDiscussion button").click(() => {
 
     $(".dividerDiscussion").css("top", "277px");
 
+    $(".btnEnviar").click(() => {
+        $(".contentDiscussion").html(`<p class="textDiscussion">Seu tópico foi enviado com sucesso! :D</p>
+
+               
+
+    <p class="textDiscussion2">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+
+        <u class="DescubraJobs">Descubra outros trabalhos!</u>
+
+        <div class="dividerDiscussion"></div>
+
+        <button class="newTopic" >
+            <span>Criar Novo Tópico</span>
+        </button>
+    </div>
+
+    <div class="question3border">
+
+        <img src="/assets/setinhas Duplas.svg" alt="Check Double" width="30px">
+        <p>Aguardando feedback dos autores</p>
+        <u class="editTopic" >Editar tópico</u>
+    </div>
+    <div class="questions3">
+
+        <h4>Assunto da pergunta aparece aqui</h4>
+        <p class="carlosQuestion3">Carlos Henrique Santos</p>
+        <p class="perguntaCarlos3">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da
+            análise da dimensão e impacto de processo formativo situado impacto de processo formativo
+            processo...
+        </p>
+
+    </div>`);
+
+        $('.textDiscussion2').css({
+            "margin-top": "18px",
+            "margin-left": "113.34px",
+            "margin-right": "139.41px"
+        });
+
+        $(".contentDiscussion button").css({
+            "left": "411.08px",
+            "width": "235.15px"
+        });
+
+        $(".contentDiscussion button span").css("right", "25px");
+        $("footer").css("top", "1800px");
+        $(".discussion").css('height', "850px");
+        $(".question2").css("top", "78%");
+        $(".questions").css("top", "58.5%");
+
+
+        $(".newTopic").click(() => {
+
+            $(".contentDiscussion").html(`<p class="textDiscussion">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+
+    <p class="assunto">Assunto</p>
+     <div class="assuntoInput"><p>Defina um tópico sucinto para notificar os autores...</p></div>
+
+     <p class="conteudo">Conteúdo</p>
+
+     <div class="conteudoInput">
+         <div class="enviar">
+             <p class="b" >B</p>
+             <p class="i" >I<ph2>
+
+             <div class="btnEnviar"><p>Enviar</p></div>
+
+         </div>
+
+
+     </div>
+
+     <div class="dividerDiscussion"></div>
+`);
+
+            $(".textDiscussion").css({
+                "font-family": "'Quicksand', sans-serif",
+                "color": "#5C5C5C",
+                "font-size": "14px",
+                "font-weight": "400",
+            });
+
+            $(".dividerDiscussion").css("top", "277px");
+
+
+            $(".discussion").css("height","700px")
+            $(".questions").css("top", "48%")
+            $(".question2").css("top", "73%")
+
+
+
+
+        })
+
+
+    });
 
 
 });

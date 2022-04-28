@@ -448,7 +448,7 @@ main h2 {
     top: 849px;
     left: 263px;
     width: 1040px;
-    height: 680px;
+    height: 700px;
     border-radius: 3px;
     border: 1px solid #ECECEC;
 }
@@ -585,9 +585,9 @@ main h2 {
 
 
 .textDiscussion2 {
-    margin-top: 148px;
-    margin-left: 216.5px;
-    margin-right: 215.5px;
+    margin-top: 18px;
+    margin-left: 113.34px;
+    margin-right: 139.41px;
     line-height: 19.5px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
@@ -635,9 +635,9 @@ main h2 {
 .contentDiscussion button {
     position: absolute;
     top: 246px;
-    left: 463px;
+    left: 411.08px;
     right: 462px;
-    width: 133px;
+    width: 235.15px;
     height: 32px;
     border-radius: 4px;
     font-family: 'Quicksand', sans-serif;
@@ -659,7 +659,7 @@ main h2 {
 .contentDiscussion button span{
     position: absolute;
     top: 6px;
-    right: 0;
+    right: 25px;
 }
 
 .contentDiscussion button:hover{
@@ -674,7 +674,7 @@ main h2 {
     width: 1000px;
     height: 148px;
     position: absolute;
-    top: 49%;
+    top: 47%;
     left: 0.5%;
     right: 1.45%;
     border-radius: 4px;
@@ -745,7 +745,7 @@ main h2 {
     width: 1000px;
     height: 148px;
     position: absolute;
-    top: 74%;
+    top: 73%;
     left: 0.5%;
     right: 1.45%;
     border-radius: 4px;
@@ -990,7 +990,7 @@ main h2 {
     width: 1000px;
     height: 148px;
     position: absolute;
-    top: 40%;
+    top: 180%;
     left: 2%;
     right: 1.45%;
     border-radius: 4px;
@@ -1000,14 +1000,14 @@ main h2 {
 }
 
 .question3border img{
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .question3border p{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    margin-top: 8px;
+    margin-top: 70px;
 }
 
 .question3border .editTopic{
@@ -1024,7 +1024,7 @@ main h2 {
     width: 1000px;
     height: 148px;
     position: absolute;
-    top: 38.7%;
+    top: 185%;
     left: 0.5%;
     right: 1.45%;
     border-radius: 4px;
@@ -1074,7 +1074,7 @@ main h2 {
 
 footer{
     position: absolute;
-    top: 1580px;
+    top: 1600px;
     left: 234px;
     display: flex;
     height: 100%;
