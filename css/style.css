@@ -47,6 +47,11 @@ button {
     border-radius: 3px;
     font-size: 14px;
     background-color: transparent;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.05);
 }
 
 .language {
@@ -149,6 +154,12 @@ button span {
     border-bottom: 2px solid #e5e5e5;
     line-height: 33px;
     text-indent: 24px;
+    transition: .2s;
+}
+
+#menu ul li:hover{
+    cursor: pointer;
+    background-color: #FDF1EB;
 }
 
 .select {
@@ -179,6 +190,7 @@ button span {
     right: 45px;
     top: 88px;
     border-radius: 4px;
+    transition: 1s;
 }
 
 .doiLogo img {
@@ -198,6 +210,7 @@ button span {
     background-position: center;
     background-size: 19px;
     color: white;
+    transition: 1s;
 }
 
 .download {
@@ -212,6 +225,11 @@ button span {
     right: 141px;
     top: 88px;
     border-radius: 4px;
+    transition: 1s;
+}
+
+.download:hover , .star:hover, .doiLogo:hover{
+    transform: scale(1.05);
 }
 
 .download img {
