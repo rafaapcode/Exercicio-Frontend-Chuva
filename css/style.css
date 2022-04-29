@@ -4,7 +4,7 @@
     position: relative;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
@@ -112,7 +112,6 @@ button span {
 /* ----------------------------------------------------- */
 
 /* Aside Menu */
-
 
 #menu {
     height: 2520px;
@@ -231,11 +230,11 @@ button span {
 }
 
 #detailsBox {
-    width: 242px;
+    width: 230px;
     height: 439px;
     position: absolute;
     top: 161px;
-    right: 45px;
+    right: 10px;
     background-color: white;
     border-radius: 3px;
     border: 1px solid #ECECEC;
@@ -332,10 +331,10 @@ main h2 {
 
 .videoOverlay {
     position: absolute;
-    left: 265px;
+    left: 250px;
     right: 318px;
     top: 161px;
-    width: 783px;
+    width: 755px;
     height: 439px;
     border-radius: 3px;
     background: rgba(141, 53, 6, 0.5);
@@ -392,8 +391,8 @@ main h2 {
 .resumo {
     position: absolute;
     top: 630px;
-    left: 263px;
-    width: 1040px;
+    left: 250px;
+    width: 1000px;
     height: 189px;
     border-radius: 3px;
     border: 1px solid #ECECEC;
@@ -415,20 +414,25 @@ main h2 {
     margin-left: 15px;
 }
 
-.textDescresumo, .textDescresumo2, .textDescresum3, .textDescresumo4  {
+.textDescresumo,
+.textDescresumo2,
+.textDescresum3,
+.textDescresumo4 {
     margin-left: 15px;
     margin-right: 15px;
     line-height: 23px;
     margin-top: 10px;
     font-family: 'Quicksand', sans-serif;
     color: #5C5C5C;
-    font-size: 14px;
+    font-size: 12px;
 }
 
-.textDescresumo, .textDescresumo2, .textDescresum3{
+.textDescresumo,
+.textDescresumo2,
+.textDescresum3 {
     margin-bottom: 20px;
 }
-     
+
 
 .resumo a {
     text-decoration: none;
@@ -446,8 +450,8 @@ main h2 {
 .discussion {
     position: absolute;
     top: 849px;
-    left: 263px;
-    width: 1040px;
+    left: 250px;
+    width: 1000px;
     height: 700px;
     border-radius: 3px;
     border: 1px solid #ECECEC;
@@ -483,7 +487,7 @@ main h2 {
     color: #ED7839;
 }
 
-.assunto{
+.assunto {
     position: absolute;
     top: 55px;
     left: 17.53px;
@@ -493,8 +497,8 @@ main h2 {
     color: #ED7839;
 }
 
-.assuntoInput{
-    width: 1005px;
+.assuntoInput {
+    width: 95%;
     height: 39px;
     line-height: 39px;
     position: absolute;
@@ -505,7 +509,7 @@ main h2 {
 }
 
 
-.assuntoInput p{
+.assuntoInput p {
     position: absolute;
     left: 23.13px;
     font-family: 'Quicksand', sans-serif;
@@ -513,7 +517,7 @@ main h2 {
     font-size: 14px;
 }
 
-.conteudo{
+.conteudo {
     position: absolute;
     top: 124px;
     left: 17.53px;
@@ -523,8 +527,8 @@ main h2 {
     color: #ED7839;
 }
 
-.conteudoInput{
-    width: 1005px;
+.conteudoInput {
+    width: 95%;
     height: 113px;
     border-radius: 3px;
     border: 1px solid #CCCCCC;
@@ -542,11 +546,11 @@ main h2 {
     border-top: 1px solid #CCCCCC;
 }
 
-.enviar:hover{
+.enviar:hover {
     cursor: pointer;
 }
 
-.enviar p{
+.enviar p {
     font-family: 'sans-serif';
     position: absolute;
     top: 5px;
@@ -557,24 +561,24 @@ main h2 {
 
 }
 
-.enviar .b{
+.enviar .b {
     left: 29.3px;
 }
 
-.enviar .i{
+.enviar .i {
     left: 72.48px;
 }
 
-.enviar .btnEnviar{
+.enviar .btnEnviar {
     position: absolute;
-    left: 819.5px;
+    left: 765px;
     height: 100%;
     width: 186px;
     background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
     border-radius: 0px 0px 4px 0px;
 }
 
-.enviar .btnEnviar p{
+.enviar .btnEnviar p {
     position: absolute;
     left: 66.31px;
     font-family: "Quicksand", sans-serif;
@@ -595,7 +599,7 @@ main h2 {
     color: #595959;
 }
 
-.DescubraJobs{
+.DescubraJobs {
     margin-top: 67px;
     color: #F48F44;
     font-family: "Quicksand", sans-serif;
@@ -606,7 +610,7 @@ main h2 {
 .dividerDiscussion {
     position: absolute;
     top: 265px;
-    width: 1027px;
+    width: 100%;
     height: 1px;
     background-color: #E7E7E7;
     overflow: hidden;
@@ -656,13 +660,13 @@ main h2 {
     bottom: 1px;
 }
 
-.contentDiscussion button span{
+.contentDiscussion button span {
     position: absolute;
     top: 6px;
     right: 25px;
 }
 
-.contentDiscussion button:hover{
+.contentDiscussion button:hover {
     cursor: pointer;
 }
 
@@ -670,8 +674,8 @@ main h2 {
 
 
 /* Questions */
-.questions{
-    width: 1000px;
+.questions {
+    width: 96%;
     height: 148px;
     position: absolute;
     top: 47%;
@@ -682,7 +686,7 @@ main h2 {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
 }
 
-.questions h4{
+.questions h4 {
     margin-top: 17px;
     margin-left: 24.17px;
     color: #ED7839;
@@ -690,14 +694,16 @@ main h2 {
     font-weight: 700;
 }
 
-.questions, .carlosQuestion{
+.questions,
+.carlosQuestion {
     margin-left: 24.17px;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Quicksand', sans-serif;
 }
 
-.questions, .perguntaCarlos{
+.questions,
+.perguntaCarlos {
     margin-left: 24.17px;
     margin-top: 10px;
     font-size: 14px;
@@ -705,7 +711,8 @@ main h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
-.questions, .likeAnswer{
+.questions,
+.likeAnswer {
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     font-weight: 350;
@@ -713,11 +720,12 @@ main h2 {
     margin-left: 85px;
 }
 
-.questions, .likeAnswer span{
+.questions,
+.likeAnswer span {
     margin-left: 15px;
 }
 
-.like{
+.like {
     position: absolute;
     width: 27px;
     height: 19px;
@@ -731,18 +739,18 @@ main h2 {
     background-position: center;
 }
 
-.menuIcon img{
+.menuIcon img {
     position: absolute;
     width: 17px;
     margin-left: 20px;
     bottom: 1px;
-   
+
 }
 
 
 
-.question2{
-    width: 1000px;
+.question2 {
+    width: 96%;
     height: 148px;
     position: absolute;
     top: 73%;
@@ -753,11 +761,11 @@ main h2 {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
 }
 
-.question2:hover{
+.question2:hover {
     cursor: pointer;
 }
 
-.question2 h4{
+.question2 h4 {
     margin-top: 17px;
     margin-left: 24.17px;
     color: #ED7839;
@@ -765,14 +773,16 @@ main h2 {
     font-weight: 700;
 }
 
-.question2, .carlosQuestion2{
+.question2,
+.carlosQuestion2 {
     margin-left: 24.17px;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Quicksand', sans-serif;
 }
 
-.question2, .perguntaCarlos2{
+.question2,
+.perguntaCarlos2 {
     margin-left: 24.17px;
     margin-top: 10px;
     font-size: 14px;
@@ -780,7 +790,8 @@ main h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
-.question2, .likeAnswer2{
+.question2,
+.likeAnswer2 {
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     font-weight: 350;
@@ -788,11 +799,12 @@ main h2 {
     margin-left: 85px;
 }
 
-.question2, .likeAnswer2 span{
+.question2,
+.likeAnswer2 span {
     margin-left: 15px;
 }
 
-.like2{
+.like2 {
     position: absolute;
     width: 27px;
     height: 19px;
@@ -806,12 +818,12 @@ main h2 {
     background-position: center;
 }
 
-.menuIcon2 img{
+.menuIcon2 img {
     position: absolute;
     width: 17px;
     margin-left: 20px;
     bottom: 1px;
-   
+
 }
 
 .divisoriaQuestion2 {
@@ -842,7 +854,7 @@ main h2 {
 
 .TextAutor {
     position: absolute;
-    left: 903px;
+    left: 850px;
     top: 170px;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
@@ -885,7 +897,7 @@ main h2 {
     font-size: 14px;
 }
 
-.divisoria3Question2{
+.divisoria3Question2 {
     position: absolute;
     top: 450px;
     width: 100%;
@@ -895,7 +907,7 @@ main h2 {
 
 .TextCoAutor {
     position: absolute;
-    left: 903px;
+    left: 850px;
     top: 485px;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
@@ -903,7 +915,7 @@ main h2 {
     color: #ED7839;
 }
 
-.CamilaNome{
+.CamilaNome {
     margin-top: 65px;
     margin-left: 23.19px;
     font-family: "Quicksand", sans-serif;
@@ -912,7 +924,7 @@ main h2 {
     color: #5C5C5C;
 }
 
-.answerCamila{
+.answerCamila {
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 23.19px;
@@ -922,7 +934,7 @@ main h2 {
     font-size: 14px;
 }
 
-.answerCamila2{
+.answerCamila2 {
     margin-left: 23.19px;
     color: #4D4D4D;
     font-family: "Quicksand", sans-serif;
@@ -930,7 +942,7 @@ main h2 {
     font-size: 14px;
 }
 
-.divisoria4Question2{
+.divisoria4Question2 {
     position: absolute;
     top: 630px;
     width: 100%;
@@ -938,7 +950,7 @@ main h2 {
     background-color: #E7E7E7;
 }
 
-.AnaName{
+.AnaName {
     margin-top: 30px;
     margin-left: 23.19px;
     font-family: "Quicksand", sans-serif;
@@ -947,7 +959,7 @@ main h2 {
     color: #5C5C5C;
 }
 
-.answerAna{
+.answerAna {
     margin-top: 10px;
     margin-left: 23.19px;
     color: #4D4D4D;
@@ -956,9 +968,9 @@ main h2 {
     font-size: 14px;
 }
 
-.TextCoAutor2{
+.TextCoAutor2 {
     position: absolute;
-    left: 903px;
+    left: 850px;
     top: 655px;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
@@ -966,31 +978,31 @@ main h2 {
     color: #ED7839;
 }
 
-.imgAdriano{
+.imgAdriano {
     position: absolute;
-    left: 950px;
+    left: 920px;
     top: 165px;
 }
 
-.imgCamila{
+.imgCamila {
     position: absolute;
-    left: 960px;
-    top:483px;
+    left: 920px;
+    top: 483px;
 }
 
 
-.imgAna{
+.imgAna {
     position: absolute;
-    left: 960px;
-    top:655px;
+    left: 90px;
+    top: 655px;
 }
 
 
-.question3border{
-    width: 1000px;
+.question3border {
+    width: 95%;
     height: 148px;
     position: absolute;
-    top: 180%;
+    top: 163%;
     left: 2%;
     right: 1.45%;
     border-radius: 4px;
@@ -999,32 +1011,32 @@ main h2 {
     text-align: center;
 }
 
-.question3border img{
+.question3border img {
     margin-top: 30px;
 }
 
-.question3border p{
+.question3border p {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin-top: 70px;
 }
 
-.question3border .editTopic{
+.question3border .editTopic {
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #ED7839;
-   position: absolute;
-   top: 110px;
-   left: 455px;
+    position: absolute;
+    top: 110px;
+    left: 455px;
 }
 
-.questions3{
-    width: 1000px;
+.questions3 {
+    width: 95%;
     height: 148px;
     position: absolute;
-    top: 185%;
+    top: 16%;
     left: 0.5%;
     right: 1.45%;
     border-radius: 4px;
@@ -1033,7 +1045,7 @@ main h2 {
     filter: blur(5px);
 }
 
-.questions3 h4{
+.questions3 h4 {
     margin-top: 17px;
     margin-left: 24.17px;
     color: #ED7839;
@@ -1041,14 +1053,16 @@ main h2 {
     font-weight: 700;
 }
 
-.questions3, .carlosQuestion3{
+.questions3,
+.carlosQuestion3 {
     margin-left: 24.17px;
     font-size: 12px;
     font-weight: 500;
     font-family: 'Quicksand', sans-serif;
 }
 
-.questions3, .perguntaCarlos3{
+.questions3,
+.perguntaCarlos3 {
     margin-left: 24.17px;
     margin-top: 10px;
     font-size: 14px;
@@ -1056,7 +1070,7 @@ main h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
-.questions3{
+.questions3 {
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     font-weight: 350;
@@ -1064,7 +1078,7 @@ main h2 {
     margin-left: 85px;
 }
 
-.questions3{
+.questions3 {
     margin-left: 15px;
 }
 
@@ -1072,7 +1086,7 @@ main h2 {
 
 
 
-footer{
+footer {
     position: absolute;
     top: 1600px;
     left: 234px;
@@ -1081,9 +1095,9 @@ footer{
     flex-direction: row;
 }
 
-.rodape{
+.rodape {
     border-top: 1px solid #E7E7E7;
-    width: 1070px;
+    width: 1020px;
     height: 181px;
     background-image: url(/assets/ImgFooter.png);
     background-repeat: no-repeat;
@@ -1091,14 +1105,29 @@ footer{
     background-size: contain;
 }
 
+.menuResponsivo {
+    width: 10px;
+    top: 5px;
+    left: 10px;
+    position: absolute;
+    font-weight: 900;
+}
 
 
 @media screen and (max-width: 900px) {
 
+    aside:first-child{
+        border-radius: 5px;
+    }
+
     #menu {
-        width: 100%;
+        width: 100px;
+        height: 100px;
         position: fixed;
+        left: 10px;
+        top: 20px;
         display: none;
+
     }
 
     #menu ul {
@@ -1598,6 +1627,7 @@ footer{
         display: flex;
         height: 100%;
         flex-direction: row;
+
     }
 
     .rodape {
@@ -1677,15 +1707,15 @@ footer{
     .answerCamila,
     .answerCamila2,
     .answerAna {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .CarlosName {
-        margin-top: 40px;
+        margin-top: 70px;
     }
 
     .CamilaNome {
-        margin-top: 40px;
+        margin-top: 45px;
     }
 
     .answerCamila,
@@ -1693,7 +1723,7 @@ footer{
         font-size: 10px;
     }
 
-    .answerAna{
+    .answerAna {
         font-size: 10px;
     }
 }

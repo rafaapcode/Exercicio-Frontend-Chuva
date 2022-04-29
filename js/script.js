@@ -39,8 +39,8 @@ $(".resumo").click(() => {
     Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat
     vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>`);
 
-    $(".resumo").css("height", "500px");
-    $(".discussion").css("top", '1170px');
+    $(".resumo").css("height", "480px");
+    $(".discussion").css("top", '1150px');
     $("footer").css("top", "1900px");
 
 })
@@ -263,4 +263,14 @@ $(".question2").click(() => {
     });
 
     $(".like2").css("bottom", "620px");
+});
+
+$(".menuResponsivo").click(() => {
+    $("#menu").slideDown("slow");
+
+    $("main").css("filter", "blur(15px)");
+    $("#details").css("filter", "blur(5px)");
+});
+
+$(".menuResponsivo").mouseout(() => {
 });
