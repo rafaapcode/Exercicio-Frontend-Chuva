@@ -273,4 +273,9 @@ $(".menuResponsivo").click(() => {
 });
 
 $(".menuResponsivo").mouseout(() => {
+
+    $("#menu").slideUp("slow");
+
+    $("main").css("filter", "blur()");
+    $("#details").css("filter", "blur()");
 });

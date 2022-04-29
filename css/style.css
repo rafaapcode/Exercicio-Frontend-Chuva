@@ -993,7 +993,7 @@ main h2 {
 
 .imgAna {
     position: absolute;
-    left: 90px;
+    left: 920px;
     top: 655px;
 }
 
@@ -1036,7 +1036,7 @@ main h2 {
     width: 95%;
     height: 148px;
     position: absolute;
-    top: 16%;
+    top: 155%;
     left: 0.5%;
     right: 1.45%;
     border-radius: 4px;
@@ -1106,6 +1106,7 @@ footer {
 }
 
 .menuResponsivo {
+    display: none;
     width: 10px;
     top: 5px;
     left: 10px;
@@ -1726,4 +1727,10 @@ footer {
     .answerAna {
         font-size: 10px;
     }
+
+    .menuResponsivo {
+        display: block;
+    }
+    
+
 }
