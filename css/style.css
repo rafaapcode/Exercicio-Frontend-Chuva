@@ -28,11 +28,11 @@ button:hover {
 }
 
 #header p:nth-child(2) {
-    font-size: 14px;
+    font-size: 22px;
 }
 
 #header p:nth-child(3) {
-    font-size: 22px;
+    font-size: 14px;
 }
 
 
