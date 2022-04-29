@@ -112,7 +112,6 @@ $(".contentDiscussion button").click(() => {
         <button class="newTopic" >
             <span>Criar Novo Tópico</span>
         </button>
-    </div>
 
     <div class="question3border">
 
@@ -263,19 +262,4 @@ $(".question2").click(() => {
     });
 
     $(".like2").css("bottom", "620px");
-});
-
-$(".menuResponsivo").click(() => {
-    $("#menu").slideDown("slow");
-
-    $("main").css("filter", "blur(15px)");
-    $("#details").css("filter", "blur(5px)");
-});
-
-$(".menuResponsivo").mouseout(() => {
-
-    $("#menu").slideUp("slow");
-
-    $("main").css("filter", "blur()");
-    $("#details").css("filter", "blur()");
 });
