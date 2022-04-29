@@ -1374,9 +1374,9 @@ footer {
 
 
     .textDiscussion2 {
+        text-align: justify;
+        width: 90%;
         margin-top: 148px;
-        margin-left: 20px;
-        margin-right: 20px;
         line-height: 12px;
         font-family: 'Quicksand', sans-serif;
         font-weight: 400;
