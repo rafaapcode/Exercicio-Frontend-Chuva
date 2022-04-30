@@ -114,9 +114,7 @@ button span {
 
 }
 
-/* ----------------------------------------------------- */
 
-/* Aside Menu */
 
 #menu {
     height: 2520px;
@@ -174,7 +172,7 @@ button span {
 
 }
 
-/* Aside Detalhes */
+
 
 #details {
     position: absolute;
@@ -1121,13 +1119,4 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-}
-
-.menuResponsivo {
-    display: none;
-    width: 10px;
-    top: 5px;
-    left: 10px;
-    position: absolute;
-    font-weight: 900;
 }
